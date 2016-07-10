@@ -11,14 +11,15 @@ filetype plugin indent on
 
 " https://github.com/altercation/vim-colors-solarized
 syntax enable
-colorscheme solarized
+" colorscheme solarized
+colorscheme dracula
 
 " Setting if gui is running or in terminal
-if has('gui_running')
-	set background=light
-else
-	set background=dark "Seting light in termial is not working for non-gui
-endif
+" if has('gui_running')
+"	set background=light
+" else
+"	set background=dark "Seting light in termial is not working for non-gui
+"endif
 
 " ----------------------------- NERDTree Configuration------------------------
 "  open a NERDTree automatically when vim starts up
