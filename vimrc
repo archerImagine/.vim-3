@@ -3,6 +3,12 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+set term=screen-256color
+
+set list
+set listchars=tab:▸\ ,eol:¬
+
+
 
 " ----------------------------- NERDTree Configuration------------------------
 "  open a NERDTree automatically when vim starts up
@@ -28,3 +34,7 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 
 " ------------------------------- NERDTree Configuration END ----------------
+
+
+
+
