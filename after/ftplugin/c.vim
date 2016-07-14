@@ -31,5 +31,5 @@ set showmatch
 " intelligent comments
 set comments=sl:/*,mb:\ *,elx:\ */
 
-set tags+=~/.vim/tags/C
+" set tags+=~/.vim/tags/C
 
