@@ -62,6 +62,7 @@ let g:ycm_filetype_blacklist={
     \ 'mail' : 1
     \}
 
+set tags+=/home/animeshb/.ctags/tags
 
 
 
