@@ -63,6 +63,8 @@ let g:ycm_filetype_blacklist={
     \}
 
 set tags+=/home/animeshb/.ctags/tags
-
+"------------------------------------------------------------------------------------------ 
+set incsearch " Incremental Search
+set hlsearch
 
 
